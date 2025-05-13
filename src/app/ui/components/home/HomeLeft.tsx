@@ -41,7 +41,7 @@ const HomeLeft = () => {
             <div key={dua.id}>
               <button
                 onClick={() => !dua.alwaysOpen && toggle(dua.id)}
-                className="flex items-center gap-2 mt-6 cursor-pointer"
+                className="flex items-center gap-2 mt-6 cursor-pointer mb-5"
               >
                 <Image
                   src={dua.icon}
