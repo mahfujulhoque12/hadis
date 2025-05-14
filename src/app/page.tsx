@@ -1,7 +1,11 @@
-
-import HomeWrapper from "./ui/components/home/HomeWrapper";
+'use client';
+import HomeWrapper from "@/ui/components/home/HomeWrapper";
 
 export default function Home() {
-  return (<HomeWrapper/>
-  );
+  const onOptionClick = () => {
+  
+    console.log("Option clicked, closing sidebar...");
+  };
+
+  return <HomeWrapper onOptionClick={onOptionClick} />;
 }
