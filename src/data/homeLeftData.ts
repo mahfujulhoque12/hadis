@@ -5,7 +5,7 @@ import dua3 from '/public/home/icon3.png';
 import dua5 from '/public/home/icon5.png';
 import dua6 from '/public/home/icon6.png';
 
-const duaList = [
+export const duaList = [
   {
     id: 1,
     icon: dua1,
@@ -24,6 +24,44 @@ const duaList = [
       ],
     },
     moto: "Ask for paradise & protection from fire",
+      duas: [
+        {
+          id: 1,
+          heading: "The servant is dependent on his Lord #1",
+          arabic: "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+          transliteration: "Iyyaaka na'budu wa Iyyaaka nasta'een",
+          translation:
+            "All human beings depend on Allah for their welfare and prevention of evil in various matters of their religion and world. Allah says (interpretation of the meaning): O mankind, you are those in need of Allah, while Allah is the Free of need, the Praiseworthy.",
+          reference: "Surah Al-Fatir 35:15",
+        },
+        {
+          id: 2,
+          heading: "Trusting Allah in every affair",
+          arabic: "وَعَلَى اللَّهِ فَتَوَكَّلُوا إِن كُنتُم مُّؤْمِنِينَ",
+          transliteration: "Wa ‘ala Allah fatawakkaloo in kuntum mu’minin",
+          translation:
+            "And upon Allah rely, if you should be believers. This verse emphasizes trust in Allah as a core part of faith.",
+          reference: "Surah Al-Ma'idah 5:23",
+        },
+        {
+          id: 3,
+          heading: "Supplication brings relief",
+          arabic: "ادْعُونِي أَسْتَجِبْ لَكُمْ",
+          transliteration: "Ud’ooni astajib lakum",
+          translation:
+            "Call upon Me; I will respond to you. Allah assures that He listens to the prayers of His servants.",
+          reference: "Surah Ghafir 40:60",
+        },
+        {
+          id: 4,
+          heading: "Patience with prayer",
+          arabic: "وَاسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ",
+          transliteration: "Wasta’eenoo bis sabri was salaat",
+          translation:
+            "Seek help through patience and prayer. Indeed, it is difficult except for the humbly submissive [to Allah].",
+          reference: "Surah Al-Baqarah 2:45",
+        },
+      ],
   },
   {
     id: 2,
@@ -41,6 +79,36 @@ const duaList = [
       ],
     },
     moto: "Protection is essential in daily life",
+      duas: [
+        {
+          id: 1,
+          heading: "The servant is dependent on his Lord #1",
+          arabic: "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+          transliteration: "Iyyaaka na'budu wa Iyyaaka nasta'een",
+          translation:
+            "All human beings depend on Allah for their welfare and prevention of evil in various matters of their religion and world. Allah says (interpretation of the meaning): O mankind, you are those in need of Allah, while Allah is the Free of need, the Praiseworthy.",
+          reference: "Surah Al-Fatir 35:15",
+        },
+        {
+          id: 2,
+          heading: "Trusting Allah in every affair",
+          arabic: "وَعَلَى اللَّهِ فَتَوَكَّلُوا إِن كُنتُم مُّؤْمِنِينَ",
+          transliteration: "Wa ‘ala Allah fatawakkaloo in kuntum mu’minin",
+          translation:
+            "And upon Allah rely, if you should be believers. This verse emphasizes trust in Allah as a core part of faith.",
+          reference: "Surah Al-Ma'idah 5:23",
+        },
+        {
+          id: 3,
+          heading: "Supplication brings relief",
+          arabic: "ادْعُونِي أَسْتَجِبْ لَكُمْ",
+          transliteration: "Ud’ooni astajib lakum",
+          translation:
+            "Call upon Me; I will respond to you. Allah assures that He listens to the prayers of His servants.",
+          reference: "Surah Ghafir 40:60",
+        },
+     
+      ],
   },
   {
     id: 3,
@@ -57,6 +125,44 @@ const duaList = [
       ],
     },
     moto: "Allah is Most Forgiving, Most Merciful",
+      duas: [
+        {
+          id: 1,
+          heading: "The servant is dependent on his Lord #1",
+          arabic: "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+          transliteration: "Iyyaaka na'budu wa Iyyaaka nasta'een",
+          translation:
+            "All human beings depend on Allah for their welfare and prevention of evil in various matters of their religion and world. Allah says (interpretation of the meaning): O mankind, you are those in need of Allah, while Allah is the Free of need, the Praiseworthy.",
+          reference: "Surah Al-Fatir 35:15",
+        },
+        {
+          id: 2,
+          heading: "Trusting Allah in every affair",
+          arabic: "وَعَلَى اللَّهِ فَتَوَكَّلُوا إِن كُنتُم مُّؤْمِنِينَ",
+          transliteration: "Wa ‘ala Allah fatawakkaloo in kuntum mu’minin",
+          translation:
+            "And upon Allah rely, if you should be believers. This verse emphasizes trust in Allah as a core part of faith.",
+          reference: "Surah Al-Ma'idah 5:23",
+        },
+        {
+          id: 3,
+          heading: "Supplication brings relief",
+          arabic: "ادْعُونِي أَسْتَجِبْ لَكُمْ",
+          transliteration: "Ud’ooni astajib lakum",
+          translation:
+            "Call upon Me; I will respond to you. Allah assures that He listens to the prayers of His servants.",
+          reference: "Surah Ghafir 40:60",
+        },
+        {
+          id: 4,
+          heading: "Patience with prayer",
+          arabic: "وَاسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ",
+          transliteration: "Wasta’eenoo bis sabri was salaat",
+          translation:
+            "Seek help through patience and prayer. Indeed, it is difficult except for the humbly submissive [to Allah].",
+          reference: "Surah Al-Baqarah 2:45",
+        },
+      ],
   },
 
   {
@@ -74,6 +180,17 @@ const duaList = [
       ],
     },
     moto: "Strong family ties are part of faith",
+      duas: [
+        {
+          id: 1,
+          heading: "The servant is dependent on his Lord #1",
+          arabic: "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+          transliteration: "Iyyaaka na'budu wa Iyyaaka nasta'een",
+          translation:
+            "All human beings depend on Allah for their welfare and prevention of evil in various matters of their religion and world. Allah says (interpretation of the meaning): O mankind, you are those in need of Allah, while Allah is the Free of need, the Praiseworthy.",
+          reference: "Surah Al-Fatir 35:15",
+        },
+      ],
   },
   {
     id: 6,
@@ -90,7 +207,28 @@ const duaList = [
       ],
     },
     moto: "Trust Allah for your sustenance",
+      duas: [
+        {
+          id: 1,
+          heading: "The servant is dependent on his Lord #1",
+          arabic: "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+          transliteration: "Iyyaaka na'budu wa Iyyaaka nasta'een",
+          translation:
+            "All human beings depend on Allah for their welfare and prevention of evil in various matters of their religion and world. Allah says (interpretation of the meaning): O mankind, you are those in need of Allah, while Allah is the Free of need, the Praiseworthy.",
+          reference: "Surah Al-Fatir 35:15",
+        },
+        {
+          id: 2,
+          heading: "Trusting Allah in every affair",
+          arabic: "وَعَلَى اللَّهِ فَتَوَكَّلُوا إِن كُنتُم مُّؤْمِنِينَ",
+          transliteration: "Wa ‘ala Allah fatawakkaloo in kuntum mu’minin",
+          translation:
+            "And upon Allah rely, if you should be believers. This verse emphasizes trust in Allah as a core part of faith.",
+          reference: "Surah Al-Ma'idah 5:23",
+        },
+    
+      ],
   },
 ];
 
-export default duaList;
+
